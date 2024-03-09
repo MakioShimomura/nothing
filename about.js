@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = () => {
   const title = document.getElementById('js-title');
   const paragraph = document.getElementById('js-paragraph');
   const startBtn = document.getElementById('js-start-btn');
@@ -10,7 +10,7 @@ window.onload = function () {
   }, 26000)
 };
 
-function fadeIn(target) {
+fadeIn = (target) => {
   const targetText = target.innerText;
   const targetCharacters = targetText.split('');
   var spannedText = targetCharacters.map((character) => {
