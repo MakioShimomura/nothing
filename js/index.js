@@ -6,11 +6,9 @@ const displayResult = () => {
   if (document.calculator__form.display.value == '') {
     document.calculator__form.display.value = 0
   } else if (PERFECT_NUMBERS.includes(result)) {
-    console.log(result)
     appearCalculator()
     document.calculator__form.display.value = result
   } else if (!OPERATORS.includes(document.calculator__form.display.value.slice(-1))) {
-    console.log(result)
     document.calculator__form.display.value = document.calculator__form.display.value.replaceAll('×', '*')
     document.calculator__form.display.value = document.calculator__form.display.value.replaceAll('÷', '/')
     document.calculator__form.display.value = result
