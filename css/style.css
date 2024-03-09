@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'DS-Digital';
+  src: url('../fonts/DS-DIGI.TTF') format('truetype');
+  src: url('../fonts/DS-DIGIB.TTF') format('truetype');
+}
+
 body {
   background-color: #e8e8e8;
 }
@@ -20,6 +26,7 @@ body {
 }
 
 .display {
+  font-family: 'DS-Digital', Bold;
   width: 100%;
 }
 
