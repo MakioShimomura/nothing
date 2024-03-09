@@ -1,5 +1,5 @@
 .about__container {
-  margin: 0 auto;
+  margin: 200px auto 0;
   max-width: 450px;
 }
 
@@ -27,6 +27,8 @@
 .about__paragraph {
   transition: all 0.8s ease-in;
   color: #e8e8e8;
+  line-height: 2;
+  font-size: 20px
 }
 
 .about__paragraph:hover {
