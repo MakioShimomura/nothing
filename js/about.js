@@ -6,8 +6,8 @@ window.onload = () => {
   setTimeout(() => fadeIn(paragraph), 5000);
   setTimeout(() => {
     startBtn.classList.add('active');
-    setTimeout(() => startBtn.classList.remove('active'), 2000);
-  }, 26000)
+    setTimeout(() => startBtn.classList.remove('active'), 3000);
+  }, 23000)
 };
 
 fadeIn = (target) => {
@@ -22,7 +22,7 @@ fadeIn = (target) => {
       character.classList.add('active');
       setTimeout(() => {
         character.classList.remove('active');
-      }, 1500)
-    }, 200 * index)
+      }, 2000)
+    }, 150 * index)
   });
 }
