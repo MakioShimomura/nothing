@@ -1,4 +1,8 @@
-window.onload = function () {
+window.onload = () => {
+  appearCalculator()
+};
+
+const appearCalculator = () => {
   const display = document.querySelector('.js-display');
   display.classList.add('active');
   setTimeout(function () {
@@ -19,4 +23,4 @@ window.onload = function () {
       }, 800);
     });
   });
-};
+}
